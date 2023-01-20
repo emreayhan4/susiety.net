@@ -1,13 +1,13 @@
-# susiety.net  <img src="doc/wueeeee.jpeg" style="zoom:5%;" />
+# susiety.net <img src="doc/wueeeee.jpeg" width="23" />
 Personal comunity page for me and my friends, written in Flask.
 
-<img src="doc/home.png" style="zoom:25%;" />
+<img src="doc/home.png" width="350" />
 
 ## How the Wall works
 
 The Wall is the main page of the site. You can either create a new thread or comment on an existing one.
 
-<img src="doc/wall.png" style="zoom:25%;" />
+<img src="doc/wall.png" width="500" />
 
 ### Creating a new thread
 
@@ -23,7 +23,7 @@ After you clicked *Post* a thread will appear!
 
 At the end of every thread is a number which indicates the **id** of the thread.
 
-![](doc/step 3.png)
+<img src="doc/step 3.png" style="zoom:25%;" />
 
 Use this number to indicate which thread you're going to reply to and write your comment.
 
@@ -31,4 +31,4 @@ Use this number to indicate which thread you're going to reply to and write your
 
 After you pressed *Post* a new comment will appear!
 
-![](doc/step 5.png)
+<img src="doc/step 5.png" style="zoom:25%;" />
