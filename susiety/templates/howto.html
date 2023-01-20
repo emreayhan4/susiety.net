@@ -1,0 +1,44 @@
+{% extends "layout.html" %}
+{% block content %}
+    <h1>
+        How the Wall works
+    </h1>
+    <p class="howto_text">
+        The Wall is the main page of the site. You can either create a new thread or comment on an existing one.
+    </p>
+
+    <hr>
+
+    <h2>
+        Creating a new thread
+    </h2>
+    <p class="howto_text">
+        First you have to choose a name for the thread and if you can also add a little text to the description of the thread.
+    </p>
+    <img src="{{ url_for('static', filename='steps/step_1.png') }}" alt="" class="howto"/>
+
+    <p class="howto_text">
+        After you clicked <i>Post</i> a thread will appear!
+    </p>
+    <img src="{{ url_for('static', filename='steps/step_2.png') }}" alt="" class="howto"/>
+
+    <hr>
+
+    <h2>
+        Commenting on a existing thread
+    </h2>
+    <p class="howto_text">
+        At the end of every thread is a number which indicates the <b>id</b> of the thread.
+    </p>
+    <img src="{{ url_for('static', filename='steps/step_3.png') }}" alt="" class="howto"/>
+
+    <p class="howto_text">
+        Use this number to indicate which thread you're going to reply to and write your comment.
+    </p>
+    <img src="{{ url_for('static', filename='steps/step_4.png') }}" alt="" class="howto"/>
+
+    <p class="howto_text">
+        After you pressed <i>Post</i> a new comment will appear!
+    </p>
+    <img src="{{ url_for('static', filename='steps/step_5.png') }}" alt="" class="howto"/>
+{% endblock content %}

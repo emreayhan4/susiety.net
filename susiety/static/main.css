@@ -1,0 +1,119 @@
+/*
+color-palett: 
+    #dbdad6, #beab9e, #b3814e, #723505, #202020
+*/
+
+body {
+    font-family: monospace;
+    background-color: #202020;
+  }
+h1 {
+    color: #beab9e;
+    font-size: 40px;
+    text-align: center;
+}
+h2 {
+    color: #dbdad6;
+    font-size: 22px;
+}
+h3 {
+    padding-top: -10px;
+    color: #dbdad6;
+}
+h5 {
+    color: #dbdad6;
+    text-align: center;
+}
+nav {
+    word-spacing: 30px;
+    text-align: center;
+    font-size: 25px;
+}
+a {
+    color: #dbdad6;
+}
+p {
+    color: #beab9e;
+}
+tr {
+    vertical-align: top;
+}
+.postSubmit {
+    text-align: center;
+}
+.postUpdate {
+    color: #beab9e;
+    font-size: 10px;
+}
+.box {
+    display: flex;
+    width: 920px;
+    padding: 10px;
+    margin-top: 15px;
+    border: 1px solid #dbdad6;
+    background: rgba(173, 216, 230, 0.05);
+}
+.boxLight {
+    display: flex;
+    width: 920px;
+    padding: 10px;
+    margin-top: 15px;
+    border: 1px solid #dbdad6;
+    background: rgba(173, 216, 230, 1);
+}
+.boxRight {
+    width: 920px;
+    padding: 10px;
+    margin-top: 15px;
+    border: 1px solid #dbdad6;
+    background: rgba(173, 216, 230, 0.05);
+}
+.boxAlt {
+    width: 800px;
+    padding: 10px;
+    margin-top: 15px;
+    border: 1px solid #dbdad6;
+    background: rgba(173, 216, 230, 0.05);
+}
+.box_subject {
+    color: #beab9e;
+}
+.subject {
+    color: #dbdad6;
+    font-size: 15px;
+    padding: 4px;
+}
+.comment {
+    font-size: 13px;
+    color: #beab9e;
+    padding: 5px;
+}
+.form-group {
+    text-align: center;
+    padding: 10px;
+    color: #beab9e;
+    border-radius:8px;
+    table-align: center;
+}
+.banner {
+    text-align: center;
+}
+.about {
+    text-align: center;
+    font-size: 15px;
+}
+.susietyHome {
+    color: #beab9e;
+    font-size: 40px;
+    text-decoration: none;
+}
+.howto {
+    width: 70%;
+    height: 70%;
+    border: 2px white solid;
+}
+.howto_text {
+    font-size: 20px;
+    text-align: center;
+}
+

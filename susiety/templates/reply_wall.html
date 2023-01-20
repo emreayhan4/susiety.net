@@ -1,0 +1,46 @@
+{% extends "layout.html" %}
+{% block content %}
+    <div calss="postSubmit">
+        <form method="POST" action="">
+            {{ form.hidden_tag() }}
+                <div class="postSubmit">
+                    {{ form.subject}}{{ form.submit }} <br>
+                    {{ form.comment }}
+                </div>
+        </form>
+    </div>
+
+    <table>
+        <tr>
+            <td>
+                {% for post in posts|reverse %}
+                    <div class="box">
+                        <div class="subject">
+                            <a href="{{ url_for('posts.reply_wall', post_id=post.id) }}" class="box_subject">{{ post.subject }}</a> • {{ post.author }} • {{ post.date_posted.strftime('%d-%m-%Y %H:%M:%S') }} • {{ post.id }}
+                        </div>
+                        <hr>
+                        <div class="comment">
+                            {{ post.comment }}
+                        </div>
+                    </div>
+                {% endfor %}
+            </td>
+            <td>
+                {% for reply in replies %}
+                    <div class="boxRight">
+                        <div class="subject">
+                            {{ reply.author }} •
+                            <div>
+                                {{ reply.date_posted.strftime('%d-%m-%Y %H:%M:%S') }} • {{ reply.id }}
+                            </div>
+                        </div>
+                        <hr>
+                        <div class="comment">
+                            {{ reply.comment }}
+                        </div>
+                    </div>
+                {% endfor %}
+            </td>
+        </tr>
+    </table>
+{% endblock content %}
