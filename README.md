@@ -1,4 +1,4 @@
-# susiety.net  <img src="doc/wueeeee.jpeg" style="zoom:10%;" />
+# susiety.net  <img src="doc/wueeeee.jpeg" style="zoom:5%;" />
 Personal comunity page for me and my friends, written in Flask.
 
 <img src="doc/home.png" style="zoom:25%;" />
