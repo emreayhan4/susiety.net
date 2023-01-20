@@ -1,5 +1,5 @@
 # susiety.net <img src="doc/wueeeee.jpeg" width="23" />
-Personal comunity page for me and my friends, written in Flask.
+Personal community page for me and my friends, written in Flask.
 
 <img src="doc/home.png" width="350" />
 
