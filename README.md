@@ -9,6 +9,8 @@ The Wall is the main page of the site. You can either create a new thread or com
 
 <img src="doc/wall.png" width="500" />
 
+---
+
 ### Creating a new thread
 
 First you have to choose a name for the thread and if you can also add a little text to the description of the thread.
@@ -18,6 +20,8 @@ First you have to choose a name for the thread and if you can also add a little 
 After you clicked *Post* a thread will appear!
 
 <img src="doc/step 2.png" style="zoom:25%;" />
+
+---
 
 ### Commenting on a existing thread
 
